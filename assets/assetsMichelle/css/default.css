@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Arial, sans-serif;
+    color: #565656;
+    background-color: #FFF;
+    align-items: center;
+}
+
+main {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 30px 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article{
+    background-color: #D4D4D4;
+    border: #565656 1px solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    max-width: 800px;
+}
+
+.buttons{
+    color: lightgray;
+    border-radius: 3px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.Button1{
+    margin-left: 30px;
+}
+
+.Button2{
+    margin-right: 30px;
+}
