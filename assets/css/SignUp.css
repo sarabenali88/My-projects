@@ -1,0 +1,136 @@
+Body {
+    background-color: #fae3e3;
+}
+.registerbox {
+    width: 420px;
+    height: 520px;
+    padding: 60px 30px;
+    background: #5E5D5DA0;
+    color: #FFFFFF;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.registerbox .user-details input{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: -18px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, serif;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registerbox input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input [type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #000000;
+    font-size: 14px;
+    justify-content: stretch;
+}
+.registerbox input[type="date"] {
+    width: 200px;
+    height: 20px;
+
+}
+
+.registerbox .user-details{
+    font-family: Arial, serif;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.registerbox button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 400px;
+    background: #2d2a2a;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 12px;
+    margin: auto;
+
+}
+
+.registerbox button[type="submit"]:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.registerbox .div input{
+    line-height: 50%;
+}
+
+form .user-details .gender-options{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, serif;
+    text-align: right;
+}
+
+form .category{
+    display: flex;
+    width: 80%;
+    margin: 10px 0 ;
+    justify-content: space-between;
+}
+form .category label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+form .category label .dot{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #FFFFFF;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    background: #000000;
+    border-color: #FFFFFF;
+}
+
+.registerbox a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-family: Arial, serif;
+}
+.registerbox p {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-family: Arial, serif;
+    text-align: center;
+}
+
+.registerbox a:hover {
+    color: #FFFFFF;
+}
