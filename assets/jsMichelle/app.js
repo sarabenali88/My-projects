@@ -1,12 +1,6 @@
 window.onload = test;
 
 function test() {
-    //document.getElementById('privacyAgreement').onclick = function (){myFunction()};
-
-    //function myFunction() {
-    //    let x = document.getElementById('privacyAgreement').checked;
-    //     console.log(x);
-    // }
 
     function checkAll() {
         document.getElementById('privacyAgreement').checked = true;
