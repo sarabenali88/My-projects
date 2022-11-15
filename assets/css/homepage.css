@@ -54,18 +54,18 @@ img{
 }
 .footer-container {
     background-color: black;
-    padding: 2px 0 4px 0;
+    padding: 0.1% 0 1% 0;
 }
 
 .footer {
     width: 80%;
-    height: 12vh;
+    height: 12%;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
-    margin: 15px 150px;
+    margin: 2% 13%;
     font-family: Arial, serif;
     font-size: x-small;
 }
@@ -73,17 +73,17 @@ img{
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin-right: 5rem;
+    margin-right: 3%;
 }
 
 .footer-heading h2 {
-    margin-bottom:10px;
+    margin-bottom: 10%;
 }
 
 .footer-heading a {
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
 }
 
 .footer-heading a:hover {
