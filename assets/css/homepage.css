@@ -1,51 +1,52 @@
-Body {
+body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/air-travel html achtergrong.jpeg");
 }
 
+header[role="banner"], #logo-main {
+    display: block;
+    margin: 20px auto;
+}
+
 nav {
-    background-color: #FF0404A0;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
+    background-color: #dcdcdc;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-family: Calibri, serif;
 }
-nav ul {
-    display: flex;
-    flex-direction: row;
-    margin: 1.5%;
-}
+
 nav li {
-    display: flex;
+    display: inline-flex;
+    float: none;
 }
 nav a {
     text-decoration: none;
-    margin: 2px;
-    padding: 5px;
-    text-transform: uppercase;
+    margin: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 1.5em;
     border-radius: 0;
 }
+
 nav a:link , nav a:visited {
     color: #000000;
-    background-color: #FFFFFF;
-    border: #000000 1px solid;
 }
+
 nav a:hover{
-    color: #FF0404A0;
-    background-color: #fdfcfc;
-    border: #FFFFFF 1px solid;
+    color: #505050;
 }
 
 img{
-    display: block;
-    width: 15%;
+    display: block;;
+    width: 20%;
     padding: 2%;
 }
 
 footer{
-    background-color: #FF0404A0;
+    background-color: #dcdcdc;
 }
 
 h1{
