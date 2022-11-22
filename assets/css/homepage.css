@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/air-travel html achtergrong.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header[role="banner"], #logo-main {

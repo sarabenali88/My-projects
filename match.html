@@ -7,28 +7,30 @@
 </head>
 <body>
 <header role="banner">
-    <img id="logo-main" src="assets/img/logo.jpg" width="300" alt="main logo">
+    <img id="logo-main" src="#" width="300" alt="main logo">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
         <div class="navbar">
-            <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
+            <a class="home" href="#"><i class="fa fa-fw fa-home"></i></a>
             <a href="#">Chat</a>
             <a href="#">Match</a>
             <a href="#">About us</a>
             <a href="#">Profile</a>
-            <a class="active" href="#"><i class="fa fa-fw fa-user-circle-o"></i></a>
-        </div><!-- /.container-fluid -->
+            <a class="login" href="#"><i class="fa fa-fw fa-user-circle-o"></i></a>
+        </div>
     </nav>
-</header><!-- header role="banner" -->
+</header>
 
     <main>
+        <article>
         <section class="info">
             <h1>Get ready to match</h1>
             <p>
                 Time for the first step in your match making, answer the questions and find out how your match is.
             </p>
         </section>
-
+        </article>
+        <article>
         <section class="questionAnswer">
             <p>
                 1. Which country do you want to visit?
@@ -62,23 +64,27 @@
                 2. How much are you willing to spend?
             </p>
             <form>
-                <label>
-                    <input name="knop" type="radio">
-                </label> less than 300<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> less then 400<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> less than 500<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> less than 600<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> more than 700<br>
+                <label class="container">less than 300
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">less than 400
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">less than 500
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">less than 600
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">more than 700
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
             </form>
-
             <p>
                 3. During what period do you want to go on vacation?
             </p>
@@ -106,24 +112,30 @@
                 4. What does your ultimate vacation look like?
             </p>
             <form>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Relaxing; I want to rest and clear my mind<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Explore; if I go on vacation I want to explore the city and be an active tourist<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Shopping; souvenirs, clothes, food, I want to spend money<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Sports; while being on vacation I want to focus on myself and my health<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Visiting; I want to visit my relatives and friends<br>
-                <label>
-                    <input name="knop" type="radio">
-                </label> Partying; I will be at clubs and party's every night <br><br>
+                <label class="container">Relaxing; I want to rest and clear my mind
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">Explore; if I go on vacation I want to explore the city and be an active tourist
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">Shopping; souvenirs, clothes, food, I want to spend money
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">Sports; while being on vacation I want to focus on myself and my health
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">Visiting; I want to visit my relatives and friends
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
+                <label class="container">Partying; I will be at clubs and party's every night
+                    <input type="radio" name="radio">
+                    <span class="radio_class"></span>
+                </label>
             </form>
 
             <p>
@@ -152,23 +164,22 @@
                     </select>
                 </label>
             </form>
-
+        </section>
+        </article>
+        <article>
             <section class="info2">
                 <p>
                     Remember! The answers you give do not have to be definite. Is your answer not listed? Choose the
                     answer that resembles your answer, you can discuss the planning of your vacation with your match
                     afterwords.
                 </p>
+                <form>
+                    <label>
+                        <input type="button" value="Send">
+                    </label>
+                </form>
             </section>
-
-            <form>
-                <label>
-                    <input type="submit">
-                </label>
-            </form>
-
-        </section>
+        </article>
     </main>
-
 </body>
 </html>
