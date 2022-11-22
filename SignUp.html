@@ -1,83 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Sign up</title>
+    <title>Tour IT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="assets/css/SignUp.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="registerbox">
-    <h1>Registration</h1>
+<main>
+<section class="register-box">
+    <h1 class="title">Registration</h1>
+    <form action="#">
+        <section class="user-info">
 
-    <form action="">
-    <div class="user-details">
+    <section class="user-details-box">
         <label for="name">Full Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter your full name" required>
-    </div>
+            <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+    </section>
 
-    <div class="user-details">
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" placeholder="Enter your a username" required>
-    </div>
-
-    <div class="user-details">
+    <section class="user-details-box">
         <label for="e-mail">E-mail</label>
         <input type="email" name="email" id="e-mail" placeholder="Enter your e-mail" required>
-    </div>
+    </section>
+            <section class="user-details-box">
+                <label for="phonenumber">Phone number</label>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter your phone number" maxlength="10"
+                       required>
+            </section>
 
-    <div class="user-details">
+    <section class="user-details-box">
         <label for="password">Password</label>
         <input type="password" name="password" id="password" placeholder="Enter a password" required>
-    </div>
+    </section>
 
-    <div class="user-details">
+            <section class="user-details-box">
+                <label for="date">Birth date</label>
+                <br>
+                <label><input type="date" name="date" id="date" required></label>
+            </section>
+
+    <section class="user-details-box">
         <label for="confirmpassword">Confirm password</label>
         <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Enter password again" required>
-    </div>
+    </section>
 
-    <div class="user-details">
-        <label for="phonenumber">Phone number</label>
-        <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter your phone number" maxlength="10"
-               required>
-    </div>
-        <div class="user-details">
-            <label for="date">Birth date</label>
-            <br>
-            <label><input type="date" name="date" id="date" required></label>
 
-        </div>
+        <section class="gender-info-box">
+            <span class="gender-title">Gender</span>
+            <section class="gender-category">
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Other">
+            <label for="Other">Other</label>
+        </section>
+        </section>
 
-        <div class="user-details">
-            <input type="radio" name="gender" id="dot-1">
-            <input type="radio" name="gender" id="dot-2">
-            <input type="radio" name="gender" id="dot-3">
-            <span class="gender-options">Gender</span>
-            <div class="category">
-                <label for="dot-1">
-                    <span class="dot one"></span>
-                    <span class="gender">Male</span>
-                </label>
-                <label for="dot-2">
-                    <span class="dot two"></span>
-                    <span class="gender">Female</span>
-                </label>
-                <label for="dot-3">
-                    <span class="dot three"></span>
-                    <span class="gender">Other</span>
-                </label>
-            </div>
-        </div>
-         <div>
-        <button type="submit">Create an account</button>
-    </div>
-        <label>
-            <p>Already have an account?   <a href="#">Log In</a></p>
-        </label>
+         <section class="form-submit">
+             <input type="submit" id="submit" value="Sign In"></section>
+        <section class="form-account"><p>Already have an account?   <a href="logIn.html" id="LogIn">Log In</a>
+            </p>
+        </section>
 
+        </section>
 
 </form>
-</div>
+</section>
+</main>
 </body>
 </html>
 
