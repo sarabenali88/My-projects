@@ -5,18 +5,17 @@ main{
     padding-right:30px;
     align-items: stretch;
 }
-
-body{
+body {
+    background-color: #e7e7e7;
     display: flex;
     font-family: Arial, sans-serif;
     flex-direction: column;
-    align-items: flex-start;
     /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/air-travel html achtergrong.jpeg");*/
     /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
     /*background-position: center;*/
-    background-color: #e7e7e7;
 }
+
 
 section.info{
     background-color: #fafafa;
@@ -48,18 +47,16 @@ h1{
     font-size: 1.5em;
 }
 
-
 header[role="banner"], #logo-main {
     display: block;
-    margin: 20px auto;
+    margin: auto;
 }
 
-nav {
+.navbar-default {
     background-color: #a03538;
     border: none;
-    width: 100%;
     padding: 5px;
-    text-align: match-parent;
+    text-align: center;
     font-family: Calibri, serif;
     border-radius: 3px;
 }
@@ -110,38 +107,42 @@ input:hover{
     background-color: #bababa;
 }
 
-.container {
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    font-size: 17px;
+
+.footer-container {
+    background-color: #a03538;
+    padding: 0.1% 0 1% 0;
 }
-.container input {
-    position: absolute;
-    opacity: 0;
+
+.footer {
+    width: 80%;
+    height: 12%;
+    background-color: #a03538;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 2% 13%;
+    font-family: Arial, serif;
+    font-size: x-small;
 }
-.radio_class {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 17px;
-    width: 17px;
-    background-color: #dcdcdc;
-    border-radius: 25%;
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
 }
-.container:hover input ~ .radio_class {
-    background-color: #bababa;
+
+.footer-heading h2 {
+    margin-bottom: 10%;
 }
-.container input:checked ~ .radio_class {
-    background-color: #505050;
+
+.footer-heading a {
+    color: #e7e7e7;
+    text-decoration: none;
+    margin-bottom: 10%;
 }
-.container .radio_class:after {
-    top: 8px;
-    left: 8px;
-    width: 8px;
-    height: 8px;
-    border-radius: 80%;
-    background: white;
+
+.footer-heading a:hover {
+    color: #262424;
+    transition: 0.2s ease-out;
 }

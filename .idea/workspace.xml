@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5374c8e4-6cdc-45a8-acb2-cfbbda86c02c" name="Changes" comment="javascript">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2022__11_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2022__11_19__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logopng2.0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css seyma/match.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css seyma/match.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inde.html" beforeDir="false" afterPath="$PROJECT_DIR$/inde.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexMichelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMichelle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/match.html" beforeDir="false" afterPath="$PROJECT_DIR$/match.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\seyka\IdeaProjects\team-1\assets\img" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
