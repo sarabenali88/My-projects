@@ -10,10 +10,7 @@ body {
     display: flex;
     font-family: Arial, sans-serif;
     flex-direction: column;
-    /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/air-travel html achtergrong.jpeg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
+
 }
 
 header[role="banner"], #logo-main {
@@ -90,6 +87,131 @@ nav a:hover{
     transition: 0.2s ease-out;
 }
 
+/*css match*/
+section.info{
+    background-color: #fafafa;
+    font-size: 19px;
+    flex-grow: 1;
+    padding: 5px;
+    margin: 5px;
+}
+section.questionAnswer{
+    background-color: #fafafa;
+    font-size: 17px;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+article {
+    background-color: #fafafa;
+    border: #a03538 1px solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    max-width: 950px;
+}
+h1{
+    font-size: 1.5em;
+}
+select {
+    width: 40%;
+    padding: 8px 20px;
+    border: 1px #565656;
+    border-radius: 4px;
+    background-color: #dcdcdc;
+    cursor: pointer;
+    font-size: 14px;
+}
+input[type="button"]{
+    color: #000000;
+    background: #dcdcdc;
+    width: 10%;
+    padding: 10px;
+    border: #262424 1px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+input:hover{
+    color: #505050;
+    background-color: #bababa;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+.radio_class {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 17px;
+    width: 17px;
+    background-color: #dcdcdc;
+    border-radius: 25%;
+}
+.container:hover input ~ .radio_class {
+    background-color: #bababa;
+}
+.container input:checked ~ .radio_class {
+    background-color: #505050;
+}
+.container .radio_class:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 80%;
+    background: white;
+}
+.mbtiTest{
+    color: #000000;
+    text-decoration: none;
+}
+.mbtiTest:hover{
+    color: #3d3b3b;
+}
 
+/*css homepage*/
+.homepage1{
+    /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/air-travel html achtergrong.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+}
+.main-page {
+    background-color: #7a2b28;
+    background-position: center;
+    border: #b4b4b4 3px solid;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 40px;
+    max-width: 700px;
+}
+.text{
+    color: #fafafa;
+}
+.corendon{
+    color: #fafafa;
+}
+.corendon:hover{
+    color: #dadada;
+}
+
+/*about us page*/
+.about-box {
+    background-color: #fafafa;
+    border: #a03538 1px solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    max-width: 950px;
+}
 
 

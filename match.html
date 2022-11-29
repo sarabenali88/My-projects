@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Match making</title>
-    <link rel="stylesheet" href="assets/css%20seyma/match.css">
+    <link rel="stylesheet" href="assets/css/homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.fys.cloud/fyscloud/0.0.4/fyscloud.min.js"></script>
 </head>
 <body>
     <header role="banner">
         <div class="logo">
-            <img id="logo-main" src="assets/img/logopng2.0.png" width="320" alt="main logo">
+            <img id="logo-main" src="assets/img/logopng2.0.png" width="270" alt="main logo">
         </div>
     <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
         <div class="navbar">
             <a class="active" href="homepage.html"><i class="fa fa-fw fa-home"></i></a>
             <a href="match.html">Match</a>
-            <a href="#">Friend request</a>
+            <a href="friendrequest.html">Friend request</a>
             <a href="about.html">About us</a>
-            <a class="active" href="SignUp.html"><i class="fa fa-fw fa-user-circle-o"></i></a>
+            <a class="active" href="profile.html"><i class="fa fa-fw fa-user-circle-o"></i></a>
         </div>
     </nav>
 </header>
@@ -26,7 +27,7 @@
         <section class="info">
             <h1>Get ready to match</h1>
             <p>
-                Time for the first step in your match making, answer the questions and find out how your match is.
+                Time for the first step in your match making, answer the questions and find out who your match is.
             </p>
         </section>
         </article>
@@ -38,7 +39,7 @@
             <form>
                 <label>
                     <select id="country" name="country">
-                        <option>Choose...</option>
+                        <option selected hidden value>Choose...</option>
                         <option value="BE">Belgium</option>
                         <option value="IN">Bali</option>
                         <option value="BG">Bulgaria</option>
@@ -63,25 +64,25 @@
             <p>
                 2. How much are you willing to spend?
             </p>
-            <form>
+            <form action="" method="post">
                 <label class="container">less than 300
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="300">
                     <span class="radio_class"></span>
                 </label>
                 <label class="container">less than 400
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="400">
                     <span class="radio_class"></span>
                 </label>
                 <label class="container">less than 500
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="500">
                     <span class="radio_class"></span>
                 </label>
                 <label class="container">less than 600
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="600">
                     <span class="radio_class"></span>
                 </label>
                 <label class="container">more than 700
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="700">
                     <span class="radio_class"></span>
                 </label>
             </form>
@@ -91,7 +92,7 @@
             <form>
                 <label>
                     <select id="months" name="months">
-                        <option>Choose...</option>
+                        <option selected hidden value>Choose...</option>
                         <option>January</option>
                         <option>February</option>
                         <option>March</option>
@@ -139,12 +140,14 @@
             </form>
 
             <p>
-                5. What is your personality type (MBTI)?
+                5. What is your personality type
+                <a class="mbtiTest" href="https://www.16personalities.com/free-personality-test">(MBTI)</a>?
+
             </p>
             <form>
                 <label>
                     <select id="mbti" name="mbti">
-                        <option>Choose...</option>
+                        <option selected hidden value>Choose...</option>
                         <option>ISTJ</option>
                         <option>ISFJ</option>
                         <option>INFJ</option>
@@ -200,3 +203,4 @@
 </div>
 </body>
 </html>
+
