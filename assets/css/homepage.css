@@ -178,7 +178,7 @@ article {
     padding: 15px;
     max-width: 950px;
 }
-h1{
+.head{
     font-size: 1.5em;
 }
 select {
@@ -190,7 +190,7 @@ select {
     cursor: pointer;
     font-size: 14px;
 }
-input[type="button"]{
+input[type="submit"]{
     color: #000000;
     background: #dcdcdc;
     width: 10%;
@@ -337,8 +337,6 @@ input:hover{
     background: #252424;
     color: #f6f5f5;
 }
-
-
 
 .infocard{
     background-color: #fafafa;

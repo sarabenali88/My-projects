@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81eacea0-e38d-4987-8f31-3295538246d4" name="Changes" comment="" />
+    <list default="true" id="81eacea0-e38d-4987-8f31-3295538246d4" name="Changes" comment="html/css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css seyma/match.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/information.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendrequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/friendrequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inde.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.-oldhtm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMichelle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match.html" beforeDir="false" afterPath="$PROJECT_DIR$/match.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
