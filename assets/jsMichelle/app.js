@@ -2,6 +2,14 @@ window.onload = test;
 
 function test() {
 
+    // document.getElementById("theForm").submit();
+    // console.log("test");
+
+    const form = document.getElementById('privacyAgreement')
+    const
+
+
+
     function checkAll() {
         document.getElementById('privacyAgreement').checked = true;
         document.getElementById('userAgreement').checked = true;
@@ -41,9 +49,7 @@ function test() {
         ifClicked);
 
     function ifClicked() {
-        if (document.getElementById('privacyAgreement').checked === true && document.getElementById('userAgreement').checked === true) {
-            window.location.assign("https://google.com");
-        } else {
+        if (document.getElementById('privacyAgreement').checked !== true || document.getElementById('userAgreement').checked !== true) {
             alert("Please check all boxes to continue!");
         }
     }
