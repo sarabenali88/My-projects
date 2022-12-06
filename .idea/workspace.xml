@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5374c8e4-6cdc-45a8-acb2-cfbbda86c02c" name="Changes" comment="html/css">
-      <change afterPath="$PROJECT_DIR$/assets/jsSeyma/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/match2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/SignUp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friendrequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/friendrequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jsMichelle/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsMichelle/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match.html" beforeDir="false" afterPath="$PROJECT_DIR$/match.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMichelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMichelle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,10 +5,7 @@ function test() {
     // document.getElementById("theForm").submit();
     // console.log("test");
 
-    const form = document.getElementById('privacyAgreement')
-    const
-
-
+    const form = document.getElementById('privacyAgreement');
 
     function checkAll() {
         document.getElementById('privacyAgreement').checked = true;
@@ -34,14 +31,14 @@ function test() {
         whenClick);
 
     function whenClick() {
-        window.location.assign("assets/privacyAgreement.html");
+        window.location.assign("about.html");
     }
 
     document.getElementById('userPage').addEventListener('click',
         onClick);
 
     function onClick() {
-        window.location.assign("assets/userAgreement.html");
+        window.location.assign("about.html");
     }
 
 
@@ -49,21 +46,9 @@ function test() {
         ifClicked);
 
     function ifClicked() {
-        if (document.getElementById('privacyAgreement').checked !== true || document.getElementById('userAgreement').checked !== true) {
+        if (document.getElementById('privacyAgreement').checked !== true || document.getElementById
+        ('userAgreement').checked !== true) {
             alert("Please check all boxes to continue!");
         }
-    }
-
-    document.getElementById('terugButton').addEventListener('click',
-        () => {
-            history.go(-1);
-        });
-
-
-    document.getElementById('returnButton').addEventListener('click',
-        inClicked);
-
-    function inClicked() {
-        window.location.assign("https://google.com");
     }
 }
