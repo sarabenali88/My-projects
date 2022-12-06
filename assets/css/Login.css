@@ -1,69 +1,96 @@
-main{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 700px;
+main {
+    padding-right: 10px;
+    padding-bottom: 45px;
+    padding-top: 25px;
 
+}
+
+* {
+    padding-top: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 Body {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
 }
 
-nav { background-color: #FF0404A0;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
+header[role="banner"], #logo-main {
+    display: block;
+    margin: auto;
 }
-nav ul {
+
+.footer-container {
+    width: 100%;
+    background-color: #a03538;
+    padding: 0.7% 0 0.7% 0;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: #a03538;
+    color: #e7e7e7;
     display: flex;
-    flex-direction: row;
-    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*margin: 5% 20%;*/
+    font-family: Arial, serif;
+    font-size: x-small;
 }
-nav li {
+
+.footer-heading {
     display: flex;
+    flex-direction: column;
+    margin-right: 3%;
 }
-nav a {
+
+.footer-heading h2 {
+    margin-bottom: 10%;
+}
+
+.footer-heading a {
+    color: #e7e7e7;
     text-decoration: none;
-    margin: 2px;
-    padding: 5px;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    border-radius: 5px;
+    margin-bottom: 5%;
 }
-nav a:link , nav a:visited {
-    color: #000000;
-    background-color: #FFFFFF;
-    border: #000000 1px solid;
-}
-nav a:hover{
-    color: #FF0404A0;
-    background-color: #fdfcfc;
-    border: #FFFFFF 1px solid;
+
+.footer-heading a:hover {
+    color: #262424;
+    transition: 0.2s ease-out;
 }
 
 .logInbox {
-    width: 320px;
-    height: 420px;
-    padding: 60px 30px;
+    width: 300px;
+    height: 400px;
+    padding: 50px 30px;
     color: #FFFFFF;
-    top: 50%;
-    left:50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
+    max-width: 700px;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #a03538;
     box-sizing: border-box;
     background: #ece5e5;
-    border-style: solid;
-    border-color: #8B0000FF;
+    position: relative;
+
 }
 
 .photo {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 50px;
     position: absolute;
-    top: -50px;
+    top: -60px;
     left: calc(50% - 50px);
+    border-style: solid;
+    border-color: #a03538;
 }
 
 h1 {
@@ -75,14 +102,13 @@ h1 {
     color: #000000;
 }
 
-.logInbox input{
+.logInbox input {
     width: 100%;
     margin-bottom: 20px;
     color: #000000;
 }
 
-.logInbox input[type="email"], input[type="password"]
-{
+.logInbox input[type="email"], input[type="password"] {
     border: none;
     border-bottom: 1px solid #000000;
     background: transparent;
@@ -91,17 +117,19 @@ h1 {
     color: #000000;
     font-size: 16px;
 }
-.logInbox .user-details{
+
+.logInbox .user-details {
     font-family: Arial, serif;
     font-size: 14px;
     justify-content: space-between;
     color: #000000;
 }
+
 .logInbox input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
-    background: #8B0000FF;
+    background: #a03538;
     color: #FFFFFF;
     font-size: 18px;
     border-radius: 2px;
@@ -110,19 +138,21 @@ h1 {
 .logInbox input[type="submit"]:hover {
     cursor: pointer;
     background: #FFFFFF;
-    color: #8B0000FF;
+    color: #a03538;
 }
 
-.logInbox a{
+.logInbox a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: #000000;
     font-family: Arial, serif;
 }
+
 .logInbox a:hover {
-    color: #8B0000FF;
+    color: #a03538;
 }
+
 .logInbox p {
     margin: 0;
     padding: 0;
@@ -130,3 +160,4 @@ h1 {
     font-size: 12px;
     color: #000000;
 }
+

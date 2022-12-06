@@ -1,7 +1,7 @@
 main{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 45px;
 
 }
 *{
@@ -9,6 +9,11 @@ main{
     margin: 0;
     box-sizing: border-box;
 }
+header[role="banner"], #logo-main {
+    display: block;
+    margin: auto;
+}
+
 Body {
     background-color: #ffffff;
     display: flex;
@@ -21,14 +26,14 @@ Body {
 
 }
 .register-box {
-    width: 100%;
-    max-width: 630px;
+    width: 90%;
+    max-width: 600px;
     background: #ece5e5;
-    padding: 28px;
+    padding: 20px;
     margin: 0 28px;
     border-radius: 5px;
     border-style: solid;
-    border-color: #8B0000FF;
+    border-color: #a03538;
 }
 .title {
     font-size: 25px;
@@ -37,7 +42,7 @@ Body {
     padding-bottom: 6px;
     font-family: Arial, serif;
     color: #000000;
-    border-bottom: solid 1px #8B0000FF;
+    border-bottom: solid 1px #a03538;
 }
 
 .user-info {
@@ -70,7 +75,7 @@ Body {
     width: 95%;
     border-radius: 2px;
     outline: none;
-    border: 1px solid #8B0000FF;
+    border: 1px solid #a03538;
     padding: 0 10px;
 }
 .register-box input[type="date"] {
@@ -82,7 +87,7 @@ Body {
     color: #000000;
     font-size: 20px;
     font-weight: 400;
-    border-bottom: 1px solid #8B0000FF;
+    border-bottom: 1px solid #a03538;
     font-family: Arial, serif;
 }
 .gender-category {
@@ -100,25 +105,30 @@ Body {
  }
 
 .form-submit{
-    margin-top: 40px;
+    margin-top: 10px;
+    padding-left: 40%;
+
+
 }
 .form-submit input{
+    justify-content: center;
     display: flex;
-    width: 100%;
-    margin-top: 20px;
+    width: 40%;
+    margin-top: 5px;
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     border: none;
     border-radius: 3px;
     color: #ffffff;
-    background: #8B0000FF;
+    background: #a03538;
 }
 
 .form-submit input:hover {
     background: #ffffff;
-    color: #8B0000FF;
+    color: #a03538;
 }
 .form-account p{
+    justify-content: center;
     display: flex;
     width: 100%;
     margin-top: 0;
@@ -127,7 +137,7 @@ Body {
     color: #000000;
 }
 .form-account a:hover {
-    color: #8B0000FF;
+    color: #a03538;
 }
 
 @media(max-width: 600px) {
