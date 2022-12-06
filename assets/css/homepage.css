@@ -280,7 +280,7 @@ input:hover{
     padding: 15px;
     max-width: 950px;
 }
-.info {
+.infopage {
     display: flex;
     flex-direction: row;
     padding: 0 15px 15px 15px;
