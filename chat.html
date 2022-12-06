@@ -3,11 +3,12 @@
 <head>
     <title>Chat</title>
     <link rel="stylesheet" href="assets/css/homepage.css">
+    <script src = "assets/jsMichelle/friend-request.js"></script>
 </head>
 
 <body>
 <header role="banner">
-    <img id="logo-main" src="assets/img/logo.jpg" width="300" alt="main logo">
+    <img id="logo-main" src="assets/img/logopng2.0.png" width="300" alt="main logo">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
         <div class="navbar">
@@ -20,65 +21,19 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header><!-- header role="banner" -->
-<p class="spacing1">
 
-    <!--Paragraph to create some space in between main menu and main navbalk-->
-</p>
-
-
-
-
-<p class="spacing2">
-</p>
-<hr class="line">
-
-<!--This is the chat interface-->
-<div class="chatInterface" >
-
-
-    <div class="chatSelector">
-        <!--chat selector-->
-        <h3>My chats</h3>
-        <input class="inputOne" type="text" placeholder="Search chat"/>
+<main class="friend-request">
+    <article>
+    <div class="solid-text">
+            <p>Friend requests:</p>
     </div>
-
-    <!--vertical line for border-->
-    <div class="verticalLine">
-
+    <div class="possible-friends">
+            <ul id="matches">
+<!--Hier komen de matches tevoorschijn-->
+            </ul>
     </div>
-
-
-    <div class="activeChat">
-
-        <div class="profile">
-            <p><ion-icon name="person-circle-outline"></ion-icon>Avatar</p>
-            <button class="profileButton"> View Profile <ion-icon name="eye-outline"></ion-icon> </button>
-        </div>
-
-
-        <!-- active chat -->
-        <br>
-        <p class="pieter">Hey, how are you!</p> <br>
-
-        <p class="me">I'm fine thanks for asking! How are you by the way</p> <br>
-
-        <p class="pieter">Unfortunately I'm not doing so well at the moment.</p> <br>
-
-
-        <p class="me">What a shame! How come?</p> <br>
-
-
-        <p class="pieter">I'm ill.</p> <br>
-
-
-        <p class="me">Hope you get well soon!</p> <br>
-
-        <p class="pieter">Thank you!</p> <br>
-
-
-        <input class="inputTwo" type="text" placeholder="Type message"/>
-    </div>
-</div>
+    </article>
+</main>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
