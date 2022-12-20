@@ -12,7 +12,7 @@ main {
 }
 
 Body {
-    background-color: #ffffff;
+    background-color: #e7e7e7;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -69,7 +69,7 @@ header[role="banner"], #logo-main {
 .logInbox {
     width: 300px;
     height: 400px;
-    padding: 50px 30px;
+    padding: 60px 30px;
     color: #FFFFFF;
     max-width: 700px;
     justify-content: center;
@@ -83,11 +83,11 @@ header[role="banner"], #logo-main {
 }
 
 .photo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50px;
     position: absolute;
-    top: -60px;
+    top: -50px;
     left: calc(50% - 50px);
     border-style: solid;
     border-color: #a03538;
