@@ -193,7 +193,7 @@ select {
 .submit{
     color: #000000;
     background: #dcdcdc;
-    width: 10%;
+    width: 100%;
     padding: 10px;
     border: #262424 1px;
     font-size: 15px;
@@ -320,7 +320,7 @@ select {
     color: #FFFFFF;
     font-size: 16px;
     border-radius: 20px;
-    margin: 50px;
+    /*margin: 50px;*/
     align-items: center;
 
 }
