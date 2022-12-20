@@ -190,7 +190,7 @@ select {
     cursor: pointer;
     font-size: 14px;
 }
-input[type="submit"]{
+.submit{
     color: #000000;
     background: #dcdcdc;
     width: 10%;
@@ -199,7 +199,7 @@ input[type="submit"]{
     font-size: 15px;
     border-radius: 2px;
 }
-input:hover{
+.submit:hover{
     color: #505050;
     background-color: #bababa;
 }
@@ -211,40 +211,33 @@ input:hover{
     cursor: pointer;
     font-size: 17px;
 }
-.container input {
-    position: absolute;
-    opacity: 0;
-}
-.radio_class {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 17px;
-    width: 17px;
-    background-color: #dcdcdc;
-    border-radius: 25%;
-}
-.container:hover input ~ .radio_class {
-    background-color: #bababa;
-}
-.container input:checked ~ .radio_class {
-    background-color: #505050;
-}
-.container .radio_class:after {
-    top: 8px;
-    left: 8px;
-    width: 8px;
-    height: 8px;
-    border-radius: 80%;
-    background: white;
-}
-.mbtiTest{
-    color: #000000;
-    text-decoration: none;
-}
-.mbtiTest:hover{
-    color: #3d3b3b;
-}
+/*.container input {*/
+/*    position: absolute;*/
+/*    opacity: 0;*/
+/*}*/
+/*.radio_class {*/
+/*    position: absolute;*/
+/*    top: 2px;*/
+/*    left: 2px;*/
+/*    height: 17px;*/
+/*    width: 17px;*/
+/*    background-color: #dcdcdc;*/
+/*    border-radius: 25%;*/
+/*}*/
+/*.container:hover input ~ .radio_class {*/
+/*    background-color: #bababa;*/
+/*}*/
+/*.container input:checked ~ .radio_class {*/
+/*    background-color: #505050;*/
+/*}*/
+/*.container .radio_class:after {*/
+/*    top: 8px;*/
+/*    left: 8px;*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*    border-radius: 80%;*/
+/*    background: white;*/
+/*}*/
 
 /*css homepage*/
 .homepage1{

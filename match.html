@@ -10,10 +10,10 @@
     <script type="module" rel="scrip" src="assets/jsSeyma/match.js"></script>
 </head>
 <body>
-    <header role="banner">
-        <div class="logo">
-            <img id="logo-main" src="assets/img/logopng2.0.png" width="270" alt="main logo">
-        </div>
+<header role="banner">
+    <div class="logo">
+        <img id="logo-main" src="assets/img/logopng2.0.png" width="270" alt="main logo">
+    </div>
     <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
         <div class="navbar">
             <a class="active" href="homepage.html"><i class="fa fa-fw fa-home"></i></a>
@@ -24,27 +24,26 @@
         </div>
     </nav>
 </header>
-    <main>
-        <article>
+<main>
+    <article>
         <section class="info">
             <h2 class="head">Get ready to match</h2>
             <p>
                 Time for the first step in your match making, answer the questions and find out who your match is.
             </p>
         </section>
-        </article>
-        <article>
+    </article>
+    <article>
         <section class="questionAnswer">
             <p>
                 1. Choose your destination?
 
             </p>
-            <form method="post" action="assets/jsSeyma/match.js" id="form1">
                 <label>
-                    <select id="country" name="country">
-                        <option selected hidden value>Choose...</option>
+                    <select id="country" name="country" required>
+                        <option hidden value>Choose...</option>
                         <option value="BE">Belgium</option>
-                        <option value="IN">Bali</option>
+                        <option value="BA">Bali</option>
                         <option value="BG">Bulgaria</option>
                         <option value="BO">Bonaire</option>
                         <option value="CW">Curacao</option>
@@ -62,148 +61,129 @@
                         <option value="ZA">Zanzibar</option>
                     </select>
                 </label>
-            </form>
 
-<!--            <p>-->
-<!--                2. How much are you willing to spend?-->
-<!--            </p>-->
-<!--            <form action="" method="post">-->
-<!--                <label class="container">less than 300-->
-<!--                    <input type="radio" name="radio" value="300">-->
-<!--                    <span class="radio_class"></span>-->
-<!--                </label>-->
-<!--                <label class="container">less than 400-->
-<!--                    <input type="radio" name="radio" value="400">-->
-<!--                    <span class="radio_class"></span>-->
-<!--                </label>-->
-<!--                <label class="container">less than 500-->
-<!--                    <input type="radio" name="radio" value="500">-->
-<!--                    <span class="radio_class"></span>-->
-<!--                </label>-->
-<!--                <label class="container">less than 600-->
-<!--                    <input type="radio" name="radio" value="600">-->
-<!--                    <span class="radio_class"></span>-->
-<!--                </label>-->
-<!--                <label class="container">more than 700-->
-<!--                    <input type="radio" name="radio" value="700">-->
-<!--                    <span class="radio_class"></span>-->
-<!--                </label>-->
-<!--            </form>-->
-            <p>
-                2. During what period do you want to go on vacation?
-            </p>
-            <form>
+                <!--            <p>-->
+                <!--                2. How much are you willing to spend?-->
+                <!--            </p>-->
+                <!--            <form action="" method="post">-->
+                <!--                <label class="container">less than 300-->
+                <!--                    <input type="radio" name="radio" value="300">-->
+                <!--                    <span class="radio_class"></span>-->
+                <!--                </label>-->
+                <!--                <label class="container">less than 400-->
+                <!--                    <input type="radio" name="radio" value="400">-->
+                <!--                    <span class="radio_class"></span>-->
+                <!--                </label>-->
+                <!--                <label class="container">less than 500-->
+                <!--                    <input type="radio" name="radio" value="500">-->
+                <!--                    <span class="radio_class"></span>-->
+                <!--                </label>-->
+                <!--                <label class="container">less than 600-->
+                <!--                    <input type="radio" name="radio" value="600">-->
+                <!--                    <span class="radio_class"></span>-->
+                <!--                </label>-->
+                <!--                <label class="container">more than 700-->
+                <!--                    <input type="radio" name="radio" value="700">-->
+                <!--                    <span class="radio_class"></span>-->
+                <!--                </label>-->
+                <!--            </form>-->
+                <p>
+                    2. During what period do you want to go on vacation?
+                </p>
                 <label>
-                    <select id="months" name="months">
-                        <option selected hidden value>Choose...</option>
-                        <option>January</option>
-                        <option>February</option>
-                        <option>March</option>
-                        <option>April</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
-                        <option>September</option>
-                        <option>October</option>
-                        <option>November</option>
-                        <option>December</option>
+                    <select id="months" name="months" required>
+                        <option hidden value>Choose...</option>
+                        <option value="JAN">January</option>
+                        <option value="FEB">February</option>
+                        <option value="MAR">March</option>
+                        <option value="APR">April</option>
+                        <option value="MAY">May</option>
+                        <option value="JUN">June</option>
+                        <option value="JUL">July</option>
+                        <option value="AUG">August</option>
+                        <option value="SEP">September</option>
+                        <option value="OCT">October</option>
+                        <option value="NOV">November</option>
+                        <option value="DEC">December</option>
                     </select>
                 </label>
-            </form>
 
-            <p>
-                3. What does your ultimate vacation look like?
-            </p>
-            <form>
-                <label class="container">Relaxing; I want to rest and clear my mind
-                    <input type="radio" name="radio" id="radioButton1">
-                    <span class="radio_class"></span>
-                </label>
-                <label class="container">Explore; if I go on vacation I want to explore the city and be an active tourist
-                    <input type="radio" name="radio">
-                    <span class="radio_class"></span>
-                </label>
-                <label class="container">Shopping; souvenirs, clothes, food, I want to spend money
-                    <input type="radio" name="radio">
-                    <span class="radio_class"></span>
-                </label>
-                <label class="container">Sports; while being on vacation I want to focus on myself and my health
-                    <input type="radio" name="radio">
-                    <span class="radio_class"></span>
-                </label>
-                <label class="container">Visiting; I want to visit my relatives and friends
-                    <input type="radio" name="radio">
-                    <span class="radio_class"></span>
-                </label>
-                <label class="container">Partying; I will be at clubs and party's every night
-                    <input type="radio" name="radio">
-                    <span class="radio_class"></span>
-                </label>
-            </form>
-
-
-<!--                5. What is your-->
-<!--                <a class="mbtiTest" href="https://www.16personalities.com/free-personality-test">personality type</a>?-->
-
-<!--            </p>-->
-<!--            <form>-->
-<!--                <label>-->
-<!--                    <select id="mbti" name="mbti">-->
-<!--                        <option selected hidden value>Choose...</option>-->
-<!--                        <option>ISTJ</option>-->
-<!--                        <option>ISFJ</option>-->
-<!--                        <option>INFJ</option>-->
-<!--                        <option>INTJ</option>-->
-<!--                        <option>ISTP</option>-->
-<!--                        <option>ISFP</option>-->
-<!--                        <option>INTP</option>-->
-<!--                        <option>INFP</option>-->
-<!--                        <option>ESTP</option>-->
-<!--                        <option>ESFP</option>-->
-<!--                        <option>ENFP</option>-->
-<!--                        <option>ENTP</option>-->
-<!--                        <option>ESTJ</option>-->
-<!--                        <option>ESFJ</option>-->
-<!--                        <option>ENFJ</option>-->
-<!--                        <option>ENTJ</option>-->
-<!--                    </select>-->
-<!--                </label>-->
-<!--            </form>-->
-        </section>
-        </article>
-        <article>
-            <section class="info2">
                 <p>
-                    Remember! The answers you give do not have to be definite. Is your answer not listed? Choose the
-                    answer that resembles your answer, you can discuss the planning of your vacation with your match
-                    afterwords.
+                    3. What does your ultimate vacation look like?
                 </p>
-                <form>
-                    <label>
-                        <input id="buttonForm" type="submit" value="Send">
-                    </label>
-                </form>
-            </section>
-        </article>
-    </main>
-    <div class="footer-container">
-        <div class="footer">
+            <label>
+                <select id="hobby" name="hobby" required>
+                    <option hidden value >Choose...</option>
+                    <option value="RELAX">Relaxing; I want to rest and clear my mind</option>
+                    <option value="EXPLORE">Explore; if I go on vacation I want to explore the city and be an active tourist</option>
+                    <option value="SHOPPING">Shopping; souvenirs, clothes, food, I want to spend money</option>
+                    <option value="SPORT">Sports; while being on vacation I want to focus on myself and my health</option>
+                    <option value="VISITING">Visiting; I want to visit my relatives and friends</option>
+                    <option value="PARTY">Partying; I will be at clubs and party's every night</option>
+                </select>
+            </label>
 
-            <div class="footer-heading footer1">
-                <h2>About us</h2>
-                <a href="about.html">Information</a>
-                <a href="#">Terms of Service</a>
-            </div>
 
-            <div class="footer-heading footer2">
-                <h2>Contact us</h2>
-                <a href="about.html">FAQ</a>
-                <a href="about.html">Contact</a>
-            </div>
+                <!--                5. What is your-->
+                <!--                <a class="mbtiTest" href="https://www.16personalities.com/free-personality-test">personality type</a>?-->
 
+                <!--            </p>-->
+                <!--            <form>-->
+                <!--                <label>-->
+                <!--                    <select id="mbti" name="mbti">-->
+                <!--                        <option selected hidden value>Choose...</option>-->
+                <!--                        <option>ISTJ</option>-->
+                <!--                        <option>ISFJ</option>-->
+                <!--                        <option>INFJ</option>-->
+                <!--                        <option>INTJ</option>-->
+                <!--                        <option>ISTP</option>-->
+                <!--                        <option>ISFP</option>-->
+                <!--                        <option>INTP</option>-->
+                <!--                        <option>INFP</option>-->
+                <!--                        <option>ESTP</option>-->
+                <!--                        <option>ESFP</option>-->
+                <!--                        <option>ENFP</option>-->
+                <!--                        <option>ENTP</option>-->
+                <!--                        <option>ESTJ</option>-->
+                <!--                        <option>ESFJ</option>-->
+                <!--                        <option>ENFJ</option>-->
+                <!--                        <option>ENTJ</option>-->
+                <!--                    </select>-->
+                <!--                </label>-->
+                <!--            </form>-->
+        </section>
+    </article>
+    <article>
+        <section class="info2">
+            <p>
+                Remember! The answers you give do not have to be definite. Is your answer not listed? Choose the
+                answer that resembles your answer, you can discuss the planning of your vacation with your match
+                afterwords.
+            </p>
+
+            <label>
+                <button id="buttonForm" class="submit">submit</button>
+            </label>
+        </section>
+    </article>
+</main>
+<div class="footer-container">
+    <div class="footer">
+
+        <div class="footer-heading footer1">
+            <h2>About us</h2>
+            <a href="about.html">Information</a>
+            <a href="#">Terms of Service</a>
         </div>
+
+        <div class="footer-heading footer2">
+            <h2>Contact us</h2>
+            <a href="about.html">FAQ</a>
+            <a href="about.html">Contact</a>
+        </div>
+
     </div>
+</div>
 </body>
 </html>
 

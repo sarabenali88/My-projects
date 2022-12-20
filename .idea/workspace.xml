@@ -6,22 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="81eacea0-e38d-4987-8f31-3295538246d4" name="Changes" comment="html/css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css seyma/match.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/information.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friendrequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/friendrequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inde.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.-oldhtm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexMichelle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jsSeyma/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsSeyma/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jsSeyma/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsSeyma/match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/match.html" beforeDir="false" afterPath="$PROJECT_DIR$/match.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/douae_ab/IdeaProjects/team-1&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/seyka/Documents/js-basics",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.general"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\seyka\IdeaProjects\team-1" />
       <recent name="C:\Users\seyka\IdeaProjects\team-1\assets\img" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
@@ -80,7 +72,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5374c8e4-6cdc-45a8-acb2-cfbbda86c02c" name="Changes" comment="" />
+      <changelist id="81eacea0-e38d-4987-8f31-3295538246d4" name="Changes" comment="html/css" />
       <created>1664876751554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,6 +92,7 @@
       <workItem from="1669627083682" duration="324000" />
       <workItem from="1669627819428" duration="4619000" />
       <workItem from="1669642600116" duration="3524000" />
+      <workItem from="1670843041406" duration="27645000" />
     </task>
     <task id="LOCAL-00001" summary="brooo">
       <created>1664878414321</created>
@@ -157,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670314422639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="html/css">
+      <created>1670316331469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670316331469</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
