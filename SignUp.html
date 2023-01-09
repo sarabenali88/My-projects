@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Tour IT</title>
@@ -8,19 +9,19 @@
     <script type="module" src="assets/js/config.js"></script>
     <script type="module" src="https://cdn.fys.cloud/fyscloud/0.0.4/fyscloud.es6.min.js" crossorigin></script>
     <script type="module" src="assets/js/signup.js"></script>
-    <script src = "assets/assetsMichelle/app.js"></script>
+    <script src="assets/assetsMichelle/app.js"></script>
 </head>
 
 <body>
 <header role="banner">
     <div class="logo">
-        <img id="logo-main" src="assets/img/logopng2.0.png" width="270" alt="main logo">
+        <img id="logo-main" src="assets/img/logopng2.0.png" alt="main logo" class="logo">
     </div>
 </header>
 <main>
     <section class="register-box">
         <form action="" method="post" id="signup">
-        <h1 class="title">Registration</h1>
+            <h1 class="title">Registration</h1>
             <section class="user-info">
                 <section class="user-details-box">
                     <label for="name">Full Name</label>
@@ -29,14 +30,8 @@
                 </section>
 
                 <section class="user-details-box">
-                    <label for="e-mail">E-mail</label>
-                    <input type="email" name="email" id="e-mail" placeholder="Enter your e-mail" required>
-                    <small></small>
-                </section>
-                <section class="user-details-box">
-                    <label for="phonenumber">Phone number</label>
-                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter your phone number"
-                           maxlength="10" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
                     <small></small>
                 </section>
 
@@ -47,38 +42,41 @@
                 </section>
 
                 <section class="user-details-box">
+                    <label for="newpass">Confirm password</label>
+                    <input type="password" name="new-password" id="newpass" placeholder="Enter password again" required>
+                    <small></small>
+                </section>
+
+
+                <section class="user-details-box">
+                    <section class="gender-info-box" id="gender-box">
+                        <label class="gender-title">Gender</label>
+                    </section>
+                    <select class="gender-category" id="gender-option">
+                        <option selected hidden>Select your gender</option>
+                        <option value="male" name="gender" id="Male">Male</option>
+                        <option value="female" name="gender" id="Female">Female</option>
+                    </select>
+                </section>
+                <section class="user-details-box">
                     <label for="date">Birth date</label>
                     <br>
                     <label><input type="date" name="date" id="date"></label>
                     <small></small>
                 </section>
 
-                <section class="user-details-box">
-                    <label for="new-password">Confirm password</label>
-                    <input type="password" name="new-password" id="new-password" placeholder="Enter password again" required>
-                    <small></small>
-                </section>
-                <section class="gender-info-box">
-                    <span class="gender-title">Gender</span>
-                    <section class="gender-category" id="gender-option">
-                        <input type="radio" name="gender" id="Male">
-                        <small></small>
-                        <label for="Male">Male</label>
-                        <input type="radio" name="gender" id="Female">
-                        <small></small>
-                        <label for="Female">Female</label>
-                        <input type="radio" name="gender" id="Other" >
-                        <small></small>
-                        <label for="Other">Other</label>
-                    </section>
-                </section>
+
+
+
                 <section class="terms">
                     <h1 class="centered">TERMS</h1>
                     <label>
-                        <input type="checkbox" id="privacyAgreement" value="yes"> Accept <a id="privacyPage" href="#">privacy agreement</a>
+                        <input type="checkbox" id="privacyAgreement" value="yes"> Accept <a id="privacyPage" href="#">privacy
+                        agreement</a>
                     </label><br>
                     <label for="userAgreement">
-                        <input type="checkbox" id="userAgreement" value="yes"> Accept <a id="userPage" href="#">user agreement</a>
+                        <input type="checkbox" id="userAgreement" value="yes"> Accept <a id="userPage" href="#">user
+                        agreement</a>
                     </label><br>
                     <label for="agreeEverything">
                         <input type="checkbox" id="agreeEverything" value="yes"> Agree to all
@@ -86,7 +84,7 @@
                 </section>
             </section>
             <section class="form-submit">
-                <input type="submit" id="submit" value="Sign In">
+                <input type="submit" id="submit" value="Sign Up">
             </section>
             <section class="form-account"><p>Already have an account? <a href="logIn.html" id="LogIn">Log In</a>
             </p>

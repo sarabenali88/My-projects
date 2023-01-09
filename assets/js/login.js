@@ -10,13 +10,17 @@ submit.onclick = function (event) {
     console.log(email);
     console.log(password);
 
+
     FYSCloud.API.queryDatabase("SELECT * FROM gebruiker WHERE email = ? AND wachtwoord = ?", [email, password])
         .then(function (data) {
             console.log(data);
             if (data.length > 0) {
                 FYSCloud.Session.set("userId", data[0]["idGebruiker"]);
                 FYSCloud.Session.set("email", email);
-                FYSCloud.URL.redirect("assets/html/homepage.html");
+                FYSCloud.URL.redirect("homepage.html");
+            } else {
+                document.getElementById("error");
+                alert("Email and password do not match");
             }
         }).catch(function (reason) {
         console.log(reason);
